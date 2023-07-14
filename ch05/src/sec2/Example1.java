@@ -19,7 +19,7 @@ public class Example1 {
         s1.setLength(50);
 
         double d1 = s1.calcArea();
-        System.out.println("현재 도형의 면적은 ? "+s1.area);
+        System.out.println("현재 도형의 면적은 ? "+s1.getArea());
 
         Shape s2 = new Shape("triangle");
         s2.setLength(30);

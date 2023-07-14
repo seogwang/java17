@@ -41,4 +41,20 @@ public class Shape {
     public void setLength(int length){
         this.length = length;
     }
+
+    public String getType() {
+        return type;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public double getArea() {
+        return area;
+    }
+
+    public void setArea(double area) {
+        this.area = area;
+    }
 }
